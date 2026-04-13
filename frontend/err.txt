@@ -1,0 +1,27 @@
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 4 modules transformed.
+[31mx[39m Build failed in 62ms
+[31merror during build:
+[31m[vite:esbuild] Transform failed with 1 error:
+E:/02_Dev_Space/01_Projects/FlawlessCut/frontend/src/App.jsx:58:68: ERROR: Expected "}" but found "as"[31m
+file: [36mE:/02_Dev_Space/01_Projects/FlawlessCut/frontend/src/App.jsx:58:68[31m
+[33m
+[33mExpected "}" but found "as"[33m
+56 |          <label className="switch" style={{ width: '40px', height: '22px' }}>
+57 |            <input type="checkbox" checked={audioDisabled ? false : item.audio} disabled={audioDisabled} onChange={e => onChange(item.id, 'audio', e.target.checked)} />
+58 |            <span className="slider" style={{ '--translate': '18px' } as React.CSSProperties}></span>
+   |                                                                      ^
+59 |          </label>
+60 |        </div>
+[31m
+    at failureErrorWithLog (E:\02_Dev_Space\01_Projects\FlawlessCut\frontend\node_modules\esbuild\lib\main.js:1472:15)
+    at E:\02_Dev_Space\01_Projects\FlawlessCut\frontend\node_modules\esbuild\lib\main.js:755:50
+    at responseCallbacks.<computed> (E:\02_Dev_Space\01_Projects\FlawlessCut\frontend\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (E:\02_Dev_Space\01_Projects\FlawlessCut\frontend\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (E:\02_Dev_Space\01_Projects\FlawlessCut\frontend\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)[39m

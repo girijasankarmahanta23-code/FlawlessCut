@@ -1,0 +1,3 @@
+file 'E:\02_Dev_Space\01_Projects\FlawlessCut\temp\intro.mp4'
+file 'E:\02_Dev_Space\01_Projects\FlawlessCut\assets\output\merged_music.mp4'
+file 'E:\02_Dev_Space\01_Projects\FlawlessCut\temp\outro.mp4'

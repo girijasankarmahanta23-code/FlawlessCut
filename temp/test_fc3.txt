@@ -1,0 +1,1 @@
+[0:v]fade=t=in:st=0:d=0.5[vout];[1:a]apad,atrim=duration=5,volume=0.15[aout]

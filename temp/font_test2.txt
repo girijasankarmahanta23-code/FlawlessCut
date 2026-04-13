@@ -1,0 +1,1 @@
+drawtext=fontfile='C\:/Windows/Fonts/arial.ttf':text='Hello':fontcolor=white:fontsize=60:x=100:y=100

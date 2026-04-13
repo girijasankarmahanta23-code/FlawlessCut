@@ -1,0 +1,33 @@
+{
+  "template_name": "Study Vlog",
+  "output_filename": "final_vlog.mp4",
+  "intro": {
+    "title": "KHOPDII",
+    "date": "14 April 2026",
+    "author": "GIRIJA",
+    "duration": 3
+  },
+  "outro": {
+    "text": "Thanks for watching!",
+    "duration": 2
+  },
+  "text_overlay": {
+    "title": "Check Video",
+    "subject": "Backend",
+    "time": "3pm"
+  },
+  "music": {
+    "filename": "background.mp3",
+    "volume": 0.15
+  },
+  "transition": {
+    "fade_duration": 6.0
+  },
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 23,
+    "preset": "fast"
+  }
+}

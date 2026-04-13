@@ -1,0 +1,1 @@
+[0:v]drawtext=fontfile='/Windows/Fonts/arial.ttf':text='Hello World':fontcolor=white:fontsize=60:x=100:y=100[vout]
