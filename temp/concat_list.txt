@@ -1,2 +1,0 @@
-file 'E:\02_Dev_Space\01_Projects\FlawlessCut\assets\processed\avalon good export.mp4'
-file 'E:\02_Dev_Space\01_Projects\FlawlessCut\assets\processed\Comp 1.mp4'
