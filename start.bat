@@ -1,6 +1,10 @@
 @echo off
 echo Starting FlawlessCut...
 
+:: Install/update Python dependencies if needed
+echo Checking Python dependencies...
+pip install -r requirements.txt --quiet
+
 :: Start FastAPI backend
 start "FlawlessCut Backend" cmd /k "cd /d %~dp0 && python -m uvicorn app.main:app --reload --port 8000"
 

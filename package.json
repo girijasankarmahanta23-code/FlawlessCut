@@ -1,0 +1,23 @@
+{
+  "name": "flawlesscut",
+  "version": "1.0.0",
+  "description": "FlawlessCut is an intelligent video editing application that automates the creation of professional-looking vlogs and study videos. Upload your clips, add metadata, and let the AI-powered pipeline handle the rest - from trimming and transitions to automatic YouTube uploads.",
+  "homepage": "https://github.com/girijasankarmahanta23-code/FlawlessCut#readme",
+  "bugs": {
+    "url": "https://github.com/girijasankarmahanta23-code/FlawlessCut/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girijasankarmahanta23-code/FlawlessCut.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

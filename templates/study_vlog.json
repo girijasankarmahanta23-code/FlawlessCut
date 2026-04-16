@@ -2,9 +2,9 @@
   "template_name": "Study Vlog",
   "output_filename": "final_vlog.mp4",
   "intro": {
-    "title": "KHOPDII",
-    "date": "14 April 2026",
-    "author": "GIRIJA",
+    "title": "uiehfuegfbesf",
+    "date": "16 April 2026",
+    "author": "efef",
     "duration": 3
   },
   "outro": {
@@ -21,7 +21,7 @@
     "volume": 0.15
   },
   "transition": {
-    "fade_duration": 6.0
+    "fade_duration": 1.0
   },
   "video": {
     "width": 1920,
